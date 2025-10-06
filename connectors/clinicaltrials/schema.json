@@ -1,0 +1,18 @@
+{
+  "tables": [
+    {
+      "name": "clinicaltrials_trials",
+      "primary_key": ["nct_id"],
+      "columns": [
+        {"name": "nct_id", "type": "string"},
+        {"name": "official_title", "type": "string"},
+        {"name": "overall_status", "type": "string"},
+        {"name": "phase", "type": "string"},
+        {"name": "conditions", "type": "json"},
+        {"name": "locations", "type": "json"},
+        {"name": "last_changed_date", "type": "string"},
+        {"name": "ingestion_ts", "type": "string"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+name: clinicaltrials
+version: 0.1.0
+config:
+  search_expression:
+    title: Search expression
+    type: string
+    required: true
+    example: Alzheimer OR Dementia OR "mild cognitive impairment"
+  start_date:
+    title: Start date
+    type: string
+    example: "2023-01-01"
+    required: false
